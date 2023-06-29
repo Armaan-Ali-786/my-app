@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+    body{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto,arial;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .6rem 1rem;
+    background-color: rgb(224 224 224);
+}
+.active{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+nav{
+    padding: .4rem;
+}
+nav a{
+    text-decoration: none;
+    margin-left: .8rem;
+    font-family: arial;
+    color: black;
+}
+header .search .box{
+    padding: .5rem .4rem;
+    border-radius: .4rem;
+    color: grey;
+    font-size: 1rem;
+}
+button{
+    color: green;
+    outline-color: green;
+    border-radius: .4rem;
+    padding: .3rem ;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+h2{
+    text-align: center;
+    padding: 1rem;
+}
+.box1{
+    border:2px rgb(224 224 224) solid;
+   justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height:14rem;
+    position: relative;
+    border-radius: .4rem;
+    margin:1rem;
+}
+section{
+    padding: .5rem 2rem;
+}
+.container{
+   
+   display: flex;
+   justify-content: center;
+  
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.4rem;
+    line-height: 1.5;
+}
+.contain h3{
+    font-size: 2rem;
+}
+.temp{
+    padding: 1rem;
+}
+.letter{
+    background: green;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224 224 224);
+    font-weight: bolder;
+}
+.letter:hover{
+    background-color: blue;
+    color: white;
+}
+.box1 .butt a {
+    text-decoration: none;
+    height: 2rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+    border: 2px blue solid;
+}
+.butt a:hover{
+    background-color: blue;
+    color: white;
+}
+.butt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
